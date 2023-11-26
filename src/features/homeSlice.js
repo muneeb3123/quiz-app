@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit"
 
-const subjectSlice = createSlice({
+const homeSlice = createSlice({
 name: "subject",
 initialState: {
     subject: []
@@ -8,4 +8,4 @@ initialState: {
 reducers: {}
 })
 
-export default subjectSlice.reducer;
+export default homeSlice.reducer;
