@@ -15,7 +15,10 @@ reducers: {
     },
     updateSubject: (state, action) => {
         state.subject = action.payload;
-    }
+    },
+    getSubject: (state, action) => {
+        state.subject = action.payload;
+    },
 }
 })
 
