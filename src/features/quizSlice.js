@@ -1,9 +1,8 @@
-import axios from "axios";
-import { createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const quizSlice = createSlice({
   initialState: {
-    quiz = [],
+    quiz: [],
   },
   name: "quiz",
   reducers: {
@@ -22,4 +21,4 @@ const quizSlice = createSlice({
   },
 });
 
-export quizSlice.reducer;
+export default quizSlice.reducer;
