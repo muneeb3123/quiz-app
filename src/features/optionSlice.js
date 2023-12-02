@@ -3,11 +3,13 @@ import { createSlice } from "@reduxjs/toolkit"
 const optionSlice = createSlice({
 name: "subject",
 initialState: {
-    option: []
+    option: [],
+    isLoading: false,
 },
 reducers: {
     addOption: (state, action) => {
         state.option = action.payload;
+        state.isLoading = true;
     },
     
     deleteOption: (state, action) => {
