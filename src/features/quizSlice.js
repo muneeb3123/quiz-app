@@ -21,7 +21,7 @@ const quizSlice = createSlice({
     },
     getQuiz: (state, action) => {
       state.quiz = action.payload;
-      state.isLoading = true;
+      state.isLoading = false;
     },
   },
 });
