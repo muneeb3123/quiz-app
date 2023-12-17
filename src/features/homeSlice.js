@@ -16,9 +16,7 @@ reducers: {
         state.subject = action.payload;
         
     },
-    updateSubject: (state, action) => {
-        state.subject = action.payload;
-    },
+   
     getSubject: (state, action) => {
         state.subject = action.payload;
         state.isLoading = true;
