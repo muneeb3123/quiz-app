@@ -13,6 +13,7 @@ reducers: {
     
     deleteSubject: (state, action) => {
         state.subject = action.payload;
+        state.isLoading = true;
     },
     updateSubject: (state, action) => {
         state.subject = action.payload;
