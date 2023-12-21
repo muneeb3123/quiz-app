@@ -8,7 +8,6 @@ const quizSlice = createSlice({
   name: "quiz",
   reducers: {
     addQuiz: (state, action) => {
-      state.isLoading = true;
       state.quiz = action.payload;
     },
     deleteQuiz: (state, action) => {
