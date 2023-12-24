@@ -18,7 +18,7 @@ reducers: {
     },
     updateOption: (state, action) => {
         state.option = action.payload;
-        state.isLoading = true;
+        state.isLoading = false;
 
     },
     getOption: (state, action) => {
