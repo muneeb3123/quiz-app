@@ -9,7 +9,6 @@ initialState: {
 reducers: {
     addOption: (state, action) => {
         state.option = action.payload;
-        state.isLoading = true;
 
     },
     
