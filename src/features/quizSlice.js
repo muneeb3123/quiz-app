@@ -23,7 +23,6 @@ const quizSlice = createSlice({
     getQuiz: (state, action) => {
       state.quiz = action.payload;
       state.isLoading = false;
-      state.isLoading = false;
 
     },
   },
