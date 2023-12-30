@@ -9,6 +9,8 @@ initialState: {
 reducers: {
     addSubject: (state, action) => {
         state.subject = action.payload;
+        state.isLoading = true;
+
     },
     
     deleteSubject: (state, action) => {
