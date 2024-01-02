@@ -10,12 +10,10 @@ const quizSlice = createSlice({
     addQuiz: (state, action) => {
       state.quiz = action.payload;
       state.isLoading = false;
-
-
     },
     deleteQuiz: (state, action) => {
       state.quiz = action.payload;
-      state.isLoading = false;
+      state.isLoading = true;
     },
     updateQuiz: (state, action) => {
       state.quiz = action.payload;
