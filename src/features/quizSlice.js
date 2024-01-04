@@ -13,7 +13,6 @@ const quizSlice = createSlice({
     },
     deleteQuiz: (state, action) => {
       state.quiz = action.payload;
-      state.isLoading = true;
     },
     updateQuiz: (state, action) => {
       state.quiz = action.payload;
