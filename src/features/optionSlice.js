@@ -10,13 +10,10 @@ reducers: {
     addOption: (state, action) => {
         state.option = action.payload;
         state.isLoading = true;
-
-
     },
     
     deleteOption: (state, action) => {
         state.option = action.payload;
-        state.isLoading = false;
     },
     updateOption: (state, action) => {
         state.option = action.payload;
