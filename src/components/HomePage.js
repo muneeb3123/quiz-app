@@ -7,6 +7,7 @@ const HomePage = () => {
       <p>lorem20
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
+      <p>lorem20</p>
     </div>
   )
 }
