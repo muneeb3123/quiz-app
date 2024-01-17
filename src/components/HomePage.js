@@ -1,17 +1,13 @@
 import React from 'react'
 
-const HomePage = () => {
+const HomePage = ({daud}) => {
+  
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>lorem20
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      </p>
-      <p>lorem20
-        asad Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      </p>
+    {daud}
+    <p>paragraph50</p>
     </div>
   )
 }
 
-export default HomePage
+export default HomePage;
