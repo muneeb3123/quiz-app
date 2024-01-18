@@ -6,6 +6,7 @@ const HomePage = ({daud}) => {
     <div>
     {daud}
     <p>paragraph50</p>
+    <h3>Heading</h3>
     </div>
   )
 }
