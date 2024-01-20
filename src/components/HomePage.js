@@ -6,7 +6,6 @@ const HomePage = ({daud}) => {
     <div>
     {daud}
     <p>paragraph50</p>
-    <h3>Heading {daud} </h3>
     </div>
   )
 }
