@@ -5,7 +5,7 @@ const HomePage = ({daud}) => {
   return (
     <div>
     {daud}
-    <p>paragraph50</p>
+    <p>paragraph50hjaasnalnadldanlnd.nad.adn.adn</p>
     </div>
   )
 }
