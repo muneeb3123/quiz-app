@@ -15,6 +15,8 @@ const quizSlice = createSlice({
     },
     updateQuiz: (state, action) => {
       state.quiz = action.payload;
+      state.isLoading = false;
+
     },
     getQuiz: (state, action) => {
       state.quiz = action.payload;
