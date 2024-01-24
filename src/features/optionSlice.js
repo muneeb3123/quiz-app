@@ -14,6 +14,7 @@ reducers: {
     
     deleteOption: (state, action) => {
         state.option = action.payload;
+        state.isLoading = false;
     },
     updateOption: (state, action) => {
         state.option = action.payload;
