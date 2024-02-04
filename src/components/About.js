@@ -5,6 +5,7 @@ function About() {
     <div>
       <h1>Heading</h1>
       <p>paragraph</p>
+      <p>Another paragraph</p>
     </div>
   )
 }
