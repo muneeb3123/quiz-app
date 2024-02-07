@@ -5,6 +5,7 @@ function Contact() {
     <div>
     <h1>Contact</h1>
     <p>Feel free to contact me at</p>
+    <p>email: <a href="mailto:">a</a></p>
     </div>
   )
 }
