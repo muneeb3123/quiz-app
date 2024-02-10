@@ -7,6 +7,7 @@ function Contact() {
     <h4>Get in touch</h4>
     <p>Feel free to contact me at</p>
     <p>email: <a href="mailto:">a</a></p>
+    <p>phone: <a href="tel:">b</a></p>
     </div>
   )
 }
