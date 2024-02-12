@@ -6,6 +6,7 @@ function Contact() {
     <h1>Contact</h1>
     <h4>Get in touch</h4>
     <p>PAragraph</p>
+    <p>Contact info</p>
     </div>
   )
 }
