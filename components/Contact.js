@@ -8,6 +8,14 @@ function Contact() {
     <p>PAragraph</p>
     <p>Contact info</p>
     <p>contact links</p>
+    <div>
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Message"></textarea>
+        <button>Send</button>
+      </form>
+    </div>
     </div>
   )
 }
