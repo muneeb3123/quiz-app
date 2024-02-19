@@ -13,8 +13,8 @@ function Contact() {
         <input type="text" placeholder="Name" />
         <input type="email" placeholder="Email" />
         <input type="text" placeholder="Subject" />
-        <textarea placeholder="Message"></textarea>
-        <textarea placeholder="Message"></textarea>
+        <textarea rows={4} cols={4} placeholder="Message"></textarea>
+        <textarea rows={4} cols={4} placeholder="Message"></textarea>
         <button>Send</button>
       </form>
     </div>
