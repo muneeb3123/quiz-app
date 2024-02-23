@@ -7,7 +7,10 @@ const HomePage = ({daud}) => {
   }
   
   return (
+    <>
    <button onClick={b()}>Hello</button>
+   <img src='#' alt='aa' />
+   </>
   )
 }
 
