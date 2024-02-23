@@ -7,8 +7,6 @@ function Navbar() {
       <div>
       <a href='home'>Home</a>
       <a href='Talha'>Talha</a>
-      <a href='muneeb'>Muneeb</a>
-      <a href='contact'>Contact</a>
       </div>
     </div>
   )
