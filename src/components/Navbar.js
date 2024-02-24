@@ -6,7 +6,6 @@ function Navbar() {
       <h1>Logo</h1>
       <div>
       <a href='home'>Home</a>
-      <a href='Talha'>Talha</a>
       </div>
     </div>
   )
