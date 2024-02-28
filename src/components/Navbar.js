@@ -1,12 +1,13 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
     <div>
       <h1>Logo</h1>
       <div>
-      <a href='home'>Home</a>
-      <a href='home'>Contact</a>
+      <NavLink to='home'>Home</NavLink>
+      <NavLink to='home'>Contact</NavLink>
       </div>
     </div>
   )
