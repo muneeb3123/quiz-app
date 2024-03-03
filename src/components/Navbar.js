@@ -7,8 +7,9 @@ function Navbar() {
       <h1>Logo</h1>
       <div>
       <NavLink to='home'>Home</NavLink>
-      <NavLink to='home'>Contact</NavLink>
-      <NavLink to='home'>About</NavLink>
+      <NavLink to='Contact'>Contact</NavLink>
+      <NavLink to='About'>About</NavLink>
+      <NavLink to='Rezult'>Rezults</NavLink>
       </div>
     </div>
   )
