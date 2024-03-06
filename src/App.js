@@ -5,7 +5,9 @@ function App() {
   function daud(){
   }
   return (
-   <HomePage />
+    <>
+      <HomePage />
+    |</>
   );
 }
 
